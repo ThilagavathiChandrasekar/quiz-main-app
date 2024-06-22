@@ -1,0 +1,78 @@
+.instruction{
+  /* border: 3px solid #f1e6e6; */
+  padding-left: 100px;
+  margin-right: 90px;
+  line-height: 1.6;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.quiz-h1{
+  color:tomato;
+  text-align: center;
+}
+.heading2{
+  font-size: 25px;
+}
+.footer-button{
+  background: linear-gradient(90deg, #1d54c3 50%, #47a9e6 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.5s;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: solid;
+}
+.footer-button:hover{
+  color:white;
+  /* font-weight: bold; */
+  font-family:Berlin Sans FB;
+  background-color: #1d54c3;
+  background-position: left bottom;
+}
+.quiz-ins-image{
+  /* width: 550px;
+  height: 260px; */
+  width: 80%;
+  height: 50%;
+  padding-left: 45px;
+}
+
+
+.lifeline-icon{
+  position: relative;
+  cursor:pointer;
+  top:-3px;
+  font-size: 20px;
+  color:#57b846;
+}
+
+.lifeline-icon:hover{
+  color: #ea4355;
+  font-size:22px;
+}
+
+.browser-default{
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-link{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media(max-width: 600px){
+  .instruction img{
+    width: 300px;
+    margin-left: -20px;
+    height: 250% ;
+  }
+}
+
+
