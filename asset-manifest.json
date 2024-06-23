@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/quiz-main-app/static/css/main.d6396de1.css",
+    "main.js": "/quiz-main-app/static/js/main.45742177.js",
+    "static/media/bg-books-img.webp": "/quiz-main-app/static/media/bg-books-img.8b32b1e51a2af4f7ca06.webp",
+    "static/media/hints.png": "/quiz-main-app/static/media/hints.d09d01aa4b5b4bd49942.png",
+    "static/media/answer.png": "/quiz-main-app/static/media/answer.a09d30b92aa8815e325c.png",
+    "static/media/options.png": "/quiz-main-app/static/media/options.9b2e12e232947273353e.png",
+    "static/media/fiftyFifty.png": "/quiz-main-app/static/media/fiftyFifty.d1b179862dbfc021068a.png",
+    "index.html": "/quiz-main-app/index.html",
+    "main.d6396de1.css.map": "/quiz-main-app/static/css/main.d6396de1.css.map",
+    "main.45742177.js.map": "/quiz-main-app/static/js/main.45742177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6396de1.css",
+    "static/js/main.45742177.js"
+  ]
+}
