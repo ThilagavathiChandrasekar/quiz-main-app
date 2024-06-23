@@ -63,8 +63,8 @@ const QuizInstruction = () =>  (
         </ul>
 
         <div className='footer-link'>
-             <Link to='/' className='footer-button'>No take me back</Link> 
-          <Link to='/play/quiz' className='footer-button'>Okay. Let's do this!</Link>
+             <Link to='/quiz-main-app' className='footer-button'>No take me back</Link> 
+          <Link to='/quiz-main-app/play/quiz' className='footer-button'>Okay. Let's do this!</Link>
         </div>
 
     </div>

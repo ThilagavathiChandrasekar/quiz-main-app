@@ -13,10 +13,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/play/instructions" element={<QuizInstructions/>} />
-        <Route path="/play/quiz" element={<Play/>} />
-        <Route path="/play/quizSummary" element={<QuizSummary/>} />
+        <Route path="/quiz-main-app" element={<Home />} />
+        <Route path="/quiz-main-app/play/instructions" element={<QuizInstructions/>} />
+        <Route path="/quiz-main-app/play/quiz" element={<Play/>} />
+        <Route path="/quiz-main-app/play/quizSummary" element={<QuizSummary/>} />
       </Routes>
     </Router>
   );
