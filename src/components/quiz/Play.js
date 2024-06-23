@@ -740,7 +740,7 @@ endGame = () => {
     document.write("<p style='margin: 25px; text-align:center; color:#1d54c3;'>Wrong Answer: " + playerStats.wrongAnswers + "</p>");
     document.write("<p style='margin: 25px; text-align:center; color:#1d54c3;'>FiftyFifty Used: " + playerStats.fiftyFiftyUsed + "</p>");
     document.write("<p style='margin: 25px; text-align:center; color:#1d54c3;'>Hints used: " + playerStats.hintsUsed + "</p>");
-   
+
     this.props.navigate('/play/quizSummery', playerStats)
     // window.location.href = '/play/quizSummery';
 }
@@ -826,7 +826,7 @@ handleDisableButton = () =>{
                     onClick={this.handleButtonClick}>
                         Next
                   </button>
-                <Link to='/'>
+                <Link to="/quiz-main-app">
                     <button id='quit-button' onClick={this.handleButtonClick}>Quit</button>
                 </Link>
             </div>
